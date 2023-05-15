@@ -28,7 +28,10 @@ yarn dev
 # visit the webpage locally and try uploading some files
 ```
 
+![](./webpage.png)
+
 [tusd log](./tusd.log)
+
 [webhook log](./webhook.log)
 
 ## Findings
