@@ -1,0 +1,33 @@
+[tusd] 2023/05/12 12:50:45.611463 Using '/home/leesei/data' as directory storage.
+[tusd] 2023/05/12 12:50:45.611531 Using 0.00MB as maximum size.
+[tusd] 2023/05/12 12:50:45.611537 Using 'http://localhost:35000' as the endpoint for hooks
+[tusd] 2023/05/12 12:50:45.611544 Enabled hook events: pre-create, post-create, post-receive, post-terminate, post-finish
+[tusd] 2023/05/12 12:50:45.611578 Using 0.0.0.0:1080 as address to listen.
+[tusd] 2023/05/12 12:50:45.611583 Using /files/ as the base path.
+[tusd] 2023/05/12 12:50:45.611657 Using /metrics as the metrics path.
+[tusd] 2023/05/12 12:50:45.611729 Supported tus extensions: creation,creation-with-upload,termination,concatenation,creation-defer-length
+[tusd] 2023/05/12 12:50:45.611972 You can now upload files to: http://0.0.0.0:1080/files/
+[tusd] 2023/05/12 12:50:57.541125 event="RequestIncoming" method="HEAD" path="a94895f214514ccb3f794f099ece30a9" requestId=""
+[tusd] 2023/05/12 12:50:57.541555 event="ResponseOutgoing" status="404" method="HEAD" path="a94895f214514ccb3f794f099ece30a9" error="upload not found" requestId=""
+[tusd] 2023/05/12 12:50:57.550240 event="RequestIncoming" method="POST" path="" requestId=""
+[tusd] 2023/05/12 12:50:57.550279 event="HookInvocationStart" type="pre-create" id=""
+[tusd] 2023/05/12 12:50:57.578686 event="HookInvocationFinish" type="pre-create" id=""
+[tusd] 2023/05/12 12:50:57.578988 event="UploadCreated" id="bc731816d032b18074bada08decfea07" size="919576196" url="http://localhost:1080/files/bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:57.579010 event="ResponseOutgoing" status="201" method="POST" path="" requestId=""
+[tusd] 2023/05/12 12:50:57.579095 event="HookInvocationStart" type="post-create" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:57.584053 event="HookInvocationFinish" type="post-create" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:57.587983 event="RequestIncoming" method="OPTIONS" path="bc731816d032b18074bada08decfea07" requestId=""
+[tusd] 2023/05/12 12:50:57.588003 event="ResponseOutgoing" status="200" method="OPTIONS" path="bc731816d032b18074bada08decfea07" requestId=""
+[tusd] 2023/05/12 12:50:57.593049 event="RequestIncoming" method="PATCH" path="bc731816d032b18074bada08decfea07" requestId=""
+[tusd] 2023/05/12 12:50:57.593758 event="ChunkWriteStart" id="bc731816d032b18074bada08decfea07" maxSize="919576196" offset="0"
+[tusd] 2023/05/12 12:50:58.594021 event="HookInvocationStart" type="post-receive" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:58.596107 event="HookInvocationFinish" type="post-receive" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:59.594062 event="HookInvocationStart" type="post-receive" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:50:59.596620 event="HookInvocationFinish" type="post-receive" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:51:00.517257 event="ChunkWriteComplete" id="bc731816d032b18074bada08decfea07" bytesWritten="919576196"
+[tusd] 2023/05/12 12:51:00.517296 event="ResponseOutgoing" status="204" method="PATCH" path="bc731816d032b18074bada08decfea07" requestId=""
+[tusd] 2023/05/12 12:51:00.517337 event="UploadFinished" id="bc731816d032b18074bada08decfea07" size="919576196"
+[tusd] 2023/05/12 12:51:00.517345 event="HookInvocationStart" type="post-finish" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:51:00.517374 event="HookInvocationStart" type="post-receive" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:51:00.520731 event="HookInvocationFinish" type="post-finish" id="bc731816d032b18074bada08decfea07"
+[tusd] 2023/05/12 12:51:00.521231 event="HookInvocationFinish" type="post-receive" id="bc731816d032b18074bada08decfea07"
